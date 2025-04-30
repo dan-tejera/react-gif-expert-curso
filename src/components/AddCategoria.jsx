@@ -23,7 +23,7 @@ export const AddCategoria = ({ onNuevaCategoria }) => {
   }
 
   return (
-    <form onSubmit={ onSumbit }>
+    <form onSubmit={ onSumbit } aria-label="form">
         <input
             type="text"
             placeholder="Buscar gifs"
